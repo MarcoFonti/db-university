@@ -24,7 +24,7 @@ SELECT * FROM `degrees` WHERE `level` = 'magistrale';
 SELECT COUNT(id) as total_department FROM `departments`;
 
 --  8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
-
+SELECT * FROM `teachers` WHERE `phone` is NULL;
 
 -- ESERCIZI CON GROUP
 
