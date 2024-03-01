@@ -39,3 +39,4 @@ SELECT COUNT(id) as buldig_number, `office_address` as strett FROM `teachers` GR
 SELECT ROUND(AVG(vote)) as avarage_grades, exam_id as id_exam FROM `exam_student` GROUP BY id_exam;
 
 --  4. Contare quanti corsi di laurea ci sono per ogni dipartimento
+SELECT COUNT(id) as degree_courses FROM `degrees` GROUP BY department_id;
